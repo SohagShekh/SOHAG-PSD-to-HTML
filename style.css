@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo a img {
+    width: 160px;
+}
+
+.header {
+    overflow: hidden;
+    margin-top: 50;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    padding-top: 15px;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+    padding-top: 45px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.header-div {
+    background: url(img/b2.jpg);
+    max-width: 100%;
+    height: 720px;
+    background-size: cover;
+}
+
+.text {
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 80px;
+    color: #D0CE09;
+}
+
+.text h5 {
+    font-size: 60px;
+    color: #D0CE09;
+}
+
+.text h4 {
+    font-size: 80px;
+    margin-top: 40px;
+    color: white;
+}
+
+.text h4 span {
+    color: #ff0000;
+}
+
+.text h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 30px 0;
+    color: #F5B300;
+    width: 250px;
+    height: 20px;
+    padding-top: 25px;
+    margin-left: 840px;
+    border: 4px solid red;
+}
+
+.box img {
+    width: 140px;
+    margin-left: 54px;
+}
+
+.all-box {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: #303343;
+    margin-right: 35px;
+    margin-bottom: 60px;
+    color: white;
+    border-radius: 10px;
+}
+
+.ser-top h2 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.ser-top p {
+    width: 1;
+    text-align: center;
+}
+
+.services p {
+    margin-left: 240px;
+    width: 748px;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 75px;
+}
+
+.services {
+    font-size: 80px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services h2 span {
+    color: red;
+}
+
+.box h2 {
+    padding: 0px 18px;
+}
+
+.box p {
+    padding: 14px 18px;
+    font-size: 15px;
+}
+
+.rec-top {
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.rec-top span {
+    color: red;
+}
+
+.rec-top h2 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recent {
+    margin-bottom: 100px;
+}
+
+.rec1 {
+    display: flex;
+}
+
+.rec-left {
+    width: 50%;
+    border: 1px solid black;
+    background: #303343;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.rec-left h2 {
+    margin-top: 120px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+
+.rec-left h4 {
+    margin-left: 50px;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.rec-left p {
+    margin-left: 50px;
+    padding: 20px 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.rec-right {
+    width: 50%;
+}
+
+.rec-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-me {
+    margin-top: 300px;
+    display: flex;
+    margin-bottom: 250px;
+}
+
+.ab-left {
+    width: 50%;
+}
+
+.ab-right {
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.ab-left img {
+    width: 300px;
+    height: 300px;
+    border: 6px solid red;
+}
+
+.ab-right h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.ab-right h1 span {
+    color: red;
+}
+
+.ab-right h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ab-right p {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ab-right button {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 4px solid red;
+}
+
+.contact {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact span {
+    color: red;
+}
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    margin-bottom: 300px;
+    text-transform: uppercase;
+}
+
+.phone {
+    display: flex;
+    border: 4px solid black;
+    width: 100%;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    border-radius: 10px;
+}
+
+.email {
+    display: flex;
+    width: 100%;
+    border: 4px solid black;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    border-radius: 10px;
+}
+
+.address {
+    display: flex;
+    width: 100%;
+    border: 4px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    border-radius: 10px;
+}
+
+.text-col {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text-col h1 {
+    padding-bottom: 5px;
+}
+
+.footer {
+    background: #303343;
+}
+
+.footer-info {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.footer-info h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-info h1 span {
+    color: red;
+}
+
+.footer-info h2 {
+    font-size: 40px;
+}
+
+.lat-logo {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 400px;
+    padding: 20px 0;
+}
+
+.footer-info p {
+    font-size: 25px;
+}
